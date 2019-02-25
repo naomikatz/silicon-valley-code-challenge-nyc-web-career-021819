@@ -1,3 +1,7 @@
+require 'pry'
+require_relative './startup.rb'
+require_relative './venture_capitalists.rb'
+
 class Funding_round
 
   attr_accessor :type
